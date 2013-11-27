@@ -1,0 +1,216 @@
+/* MailChimp Form Embed Code - Slim - 08/17/2011 */
+#mc_embed_signup form {
+
+
+	position:relative; 
+		text-align: left; 
+/*	padding:10px 0 10px 3% */
+width: 100%;
+
+}
+
+#mc_embed_signup h2 {
+
+	font-weight:bold; 
+	padding:0; 
+	margin:0px 0; 
+	font-size:1.4em;
+
+}
+#mc_embed_signup input {
+
+	border:1px solid #7BBFB2; 
+	-webkit-appearance:none;
+
+}
+
+#mc_embed_signup input[type=checkbox]{
+
+	-webkit-appearance:checkbox;
+
+}
+#mc_embed_signup input[type=radio]{
+
+	-webkit-appearance:radio;
+
+}
+
+#mc_embed_signup input:focus {
+
+	border-color:#7BBFB2;
+
+}
+
+#mc_embed_signup .button {
+
+	clear:both; 
+	background-color: #7BBFB2; 
+	border: 0 none; 
+	border-radius:4px; 
+	color: #FFFFFF; 
+	cursor: pointer; 
+/*	display: inline-block; */
+	font-size:15px; 
+	font-weight: bold; 
+	height: 32px; 
+
+
+	text-align: center; 
+	text-decoration: none; 
+	vertical-align: top; 
+	white-space: nowrap; 
+
+	min-width: 100%;
+}
+
+#mc_embed_signup .button:hover {
+
+	background-color:#62968c;
+
+}
+
+#mc_embed_signup .small-meta {
+
+	font-size: 20px;
+
+}
+
+#mc_embed_signup .nowrap {
+
+	white-space:nowrap;
+
+}     
+
+#mc_embed_signup .clear {
+
+	clear:none; 
+
+}
+
+#mc_embed_signup label {
+
+
+	font-size:16px; 
+	padding-bottom:10px; 
+	font-weight:bold;
+
+}
+
+#mc_embed_signup input.email {
+
+/*	display:block; */
+	padding:0.8em; 
+	padding-left: 0em;
+/*	margin:0 4% 10px 0; */ 
+/*	text-indent:5px; */
+
+	width: 100%;
+	font-family: "proxima_novalight", "latolight", helvetica, sans-serif; 
+	font-size: 1.4em;
+	text-align: center;
+    margin-top: 2px;
+
+
+}
+
+#mc_embed_signup input.button {
+
+
+	position: relative;
+
+	padding-bottom: 1.9em;
+	padding-top: 1em;
+	margin-top: 0.05em;
+
+	font-family: "proxima_novalight", "latolight", helvetica, sans-serif; 
+	font-size: 1.4em;
+
+
+
+}
+
+#mc_embed_signup div#mce-responses {
+
+	
+	padding:0em .5em 0em .5em; 
+	overflow:hidden; 
+
+
+	clear: both;
+
+}
+
+#mc_embed_signup div.response {
+
+
+	padding:1em .5em 0.5em 0; 
+	font-weight:bold; 
+
+	top:-1.5em; 
+	z-index:1; 
+
+
+}
+
+#mc_embed_signup #mce-error-response {
+
+
+
+}
+
+#mc_embed_signup #mce-success-response {
+
+	color:#529214; 
+
+
+}
+
+#mc_embed_signup label.error {
+
+	float:none; 
+
+	margin-left:1.05em; 
+	text-align:left; 
+	padding:.5em 0;
+
+}
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('../fonts/proximanova-light-webfont.eot');
+    src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-light-webfont.woff') format('woff'),
+         url('../fonts/proximanova-light-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novasemibold';
+    src: url('../fonts/proximanova-semibold-webfont.eot');
+    src: url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-semibold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#mc_embed_signup {
+
+/*	background:#fff; */
+	clear:left; 
+	font-family: "proxima_novalight", "latolight", helvetica, sans-serif; 
+/*	width:600px; */
+
+}
+
+.columns {
+
+padding-right:10px;
+padding-left:0px;
+}
+

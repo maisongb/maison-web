@@ -1,0 +1,625 @@
+/* 
+css by giuseppe burdo  giuseppe.burdo@gmail.com
+for maisongb.com
+
+first draft Sep 15 2013
+
+*/
+
+/* COLORS 
+
+RED main rgba(175,61,58,1); #AF3D3A;
+RED dark rgba(99,35,35); #632323;
+GREY rgba(33,33,33); #212121;
+BLUE rgba(38,77,84); #264D54;
+
+*/
+
+
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('../fonts/proximanova-light-webfont.eot');
+    src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-light-webfont.woff') format('woff'),
+         url('../fonts/proximanova-light-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novasemibold';
+    src: url('../fonts/proximanova-semibold-webfont.eot');
+    src: url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-semibold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: 'proxima_novalight_italic';
+    src: url('../fonts/proximanova-lightitalic-webfont.eot');
+    src: url('../fonts/proximanova-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/proximanova-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-lightitalic-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* call to fonts  */
+
+h1, h2, h3, h4, h5, h6, li, p, blockquote { font-family: "proxima_novalight", "latolight", helvetica, sans-serif !important; }
+
+
+h1
+  { 
+    
+    color: rgba(33,33,33, 0.7);
+    font-size: 3em;
+    -webkit-font-smoothing: antialiased !important;
+    padding: 0;
+    line-height: 0em;
+
+  }
+
+
+h2
+  { 
+    font-family: "proxima_novalight";
+    color: rgba(33,33,33, 0.7);
+    font-size: 2em;
+    -webkit-font-smoothing: antialiased !important;
+    text-align: center;
+    line-height: 1.2em;
+
+
+  }
+
+.h2-lightgrey {
+
+      color: lightgrey;
+    font-size: 2em;
+    -webkit-font-smoothing: antialiased !important;
+
+
+}
+
+.padding-bottom-3 {
+  padding-bottom: 2em;
+}
+
+
+.lightgrey {
+
+      color: lightgrey;
+}
+
+.lightgrey:hover {
+
+      color: grey;
+}
+
+
+
+h3
+  { 
+
+    color: rgba(99,35,35);
+    font-size: 1.8em;
+    padding-bottom: 0.5em;
+    -webkit-font-smoothing: antialiased !important;
+
+  }
+
+h4 .no-padding {
+
+  padding: 0px !important; 
+  margin: 0px !important;
+}
+
+h4
+  { 
+
+    color: rgba(33,33,33, 0.5);
+    font-size: 1em;
+    -webkit-font-smoothing: antialiased !important;
+    padding-top: 0.5em;
+
+  }
+
+.h4-cityboarding {
+  color: rgba(175,61,58,0.5);
+  padding-bottom: 3em;
+
+}
+
+h5
+  { 
+
+    color: rgba(33,33,33,0.4);
+    font-size: 1em;
+    -webkit-font-smoothing: antialiased !important;
+    padding: 0px;
+
+  }
+
+h6
+  { 
+
+    color: rgba(33,33,33,0.4);
+    font-size: 1em;
+    -webkit-font-smoothing: antialiased !important;
+    padding-top: 0.8em;
+
+  }
+
+p
+  { 
+
+    color: rgba(33,33,33,0.8);
+    font-size: 1.8em;
+    -webkit-font-smoothing: antialiased !important;
+    line-height: 1.3em;
+    padding-bottom: 1em;
+    
+  }
+
+a {
+  color: rgba(175,61,58,0.5);
+}
+
+
+blockquote {
+font-size: 1.2em;
+
+}
+
+
+/* background  */
+
+
+
+body
+{ 
+
+    background: #FFFDF4 url('../img/background.png');
+  background-repeat: repeat;
+  
+
+
+}
+
+.body_background {
+
+
+
+}
+
+.line {
+  background-color: #7BBFB2;
+  min-height: 0.2em;
+  margin:0 auto;
+}
+
+.maison_label {
+  margin-top: -1em;
+  margin-left: 1em;
+
+
+}
+
+.maison_label:hover {
+  opacity: 0.9;
+}
+
+
+.maison_home {
+  margin-top: -1em;
+  margin-left: 1em;
+
+}
+
+.maison_home:hover {
+  margin-top: -1em;
+  margin-left: 1em;
+    opacity: 0.9;
+}
+
+.introduction {
+
+  padding: 1em;
+  text-align: center;
+}
+
+.logo
+{
+     text-align:center;
+     margin-top: 2em;
+     margin-bottom: 0;
+     padding-bottom: 0;
+
+}
+
+.subscribe {
+
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.team {
+
+  
+
+}
+
+.how-it-works {
+
+  padding-top: 2em;
+
+}
+
+.who {
+ color: rgba(33,33,33, 1);
+ line-height: 1.3em;
+}
+
+.mail {
+  color:rgba(33,33,33,0.4);
+}
+
+.grey {
+  color:rgba(33,33,33,0.4) !important;
+}
+
+.dark-grey {
+  color:rgba(33,33,33,1);
+}
+
+.how-it-works-images {
+  padding: 30px;
+}
+
+
+.the-app {
+padding-top: 4em;
+}
+
+.bus-models {
+padding-top: 2em;
+
+
+}
+
+
+.large-block-grid-3 {
+text-align: center;
+
+
+
+}
+
+li {
+    display:inline-block;
+
+
+
+
+    text-align: center;
+}
+
+.questions {
+padding-top: 2em;
+
+}
+
+
+
+
+/*   HOME     */
+
+.projects {
+  padding-top: 0em;
+}
+
+.project:hover {
+  background-color: rgba(205, 225, 205, 0.5);
+
+}
+
+.footer {
+  background:#77B2BF; 
+  text-align: center;
+
+ padding-top: 1em;
+ padding-bottom: 0em;
+
+clear:both;
+display: block;
+
+width: 100%;
+
+}
+
+
+.tag {
+font-family: "proxima_novalight" !important;
+font-size: 1em;
+padding-top: -1em;
+opacity: 0.5;
+
+} 
+
+
+
+
+.foot {
+  
+  color: #356052;
+}
+
+.social {
+
+}
+
+
+/*   PIGMENTO    */
+
+
+.center {
+  text-align: center;
+}
+
+/*   credits    */
+
+
+
+li:first-child {
+  font-family: "proxima_novasemibold";
+}
+
+.semibold {
+  font-family: "proxima_novasemibold";
+
+}
+
+.normal {
+  font-family: "proxima_novalight" !important;
+}
+
+ .question {
+  font-family: "proxima_novalight_italic" !important;
+}
+
+.credits ul li {
+text-align: left;
+line-height: 1.4em;
+opacity: 0.;
+
+}
+
+.th {
+
+  padding: 0px;
+
+}
+
+.vertical-space {
+
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+}
+
+ul li  caption {
+
+  padding: 1em !important;
+
+}
+
+
+.row-home {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5em;
+  *zoom: 1;
+  background-color: rgba(255,255,255,0.4);
+  border-right: 1px dashed lightgrey;
+  border-left: 1px dashed lightgrey;
+  border-bottom: 1px dashed lightgrey; 
+
+
+}
+  .row-home:before, .row-home:after {
+    content: " ";
+    display: table; }
+  .row-home:after {
+    clear: both; }
+  .row-home.collapse .column,
+  .row-home.collapse .columns {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    float: left; }
+  .row-home .row-home {
+    width: auto;
+    margin-left: -0.9375em;
+    margin-right: -0.9375em;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: none;
+    *zoom: 1; }
+    .row-home .row:before, .row-home .row:after {
+      content: " ";
+      display: table; }
+    .row-home .row-home:after {
+      clear: both; }
+    .row-home .row-home.collapse {
+      width: auto;
+      margin: 0;
+      max-width: none;
+      *zoom: 1; }
+      .row-home .row-home.collapse:before, .row-home .row-home.collapse:after {
+        content: " ";
+        display: table; }
+      .row-home .row-home.collapse:after {
+        clear: both; }
+
+
+.less-padding {
+  padding-top: 0px;
+}
+
+
+.large-3 {
+  position: left;
+  padding: 0px;
+}
+
+.small-12 {
+  position: left;
+}
+
+.max-width {
+  max-width: 200px;
+}
+
+.padding-bottom: {
+  padding-bottom: 1em;
+}
+
+.vimeo {
+  padding-top: 1em;
+}
+
+a {
+
+text-decoration: none;
+
+}
+
+a:hover {
+  color:#62968c;
+} 
+
+.no-pointer {
+  cursor: default !important;
+  color:rgba(33,33,33,0.8) !important;
+}
+
+
+header img {
+  opacity: 0.6;
+}
+
+header img:hover {
+  opacity: 1;
+}
+
+
+section li:hover {
+
+  outline: 1px #F06060 dashed;
+}
+
+
+section ul li h4 {
+
+  text-decoration: none;
+    font-family: 'proxima_novalight';
+    font-size: 1.8em;
+
+}
+
+section ul li a caption {
+
+    font-family: 'proxima_novasemibold';
+    text-transform: uppercase !important;
+    font-size: 4em;
+    color:black;
+
+}
+
+
+
+h2 {
+
+  text-decoration: none;
+    font-family: 'proxima_novalight';
+    font-size: 1.8em;
+    padding-bottom: 1em;
+
+}
+
+
+
+.border-bottom {
+
+  border-bottom: 1px #F06060 dashed;
+
+}
+
+
+.container ul li tag {
+
+    font-family: 'proxima_novalight';
+    font-size: 1.8em;
+    padding-top: 0px;
+    margin-top: 0px;
+
+
+}
+
+.h4-small {
+
+  text-transform: uppercase;
+  font-family: 'proxima_novasemibold';
+  opacity: 0.5;
+  padding-top: 0.5em;
+
+}
+
+.row .all-content {
+
+  background: rgba(255,255,255,0.3);
+  border-left: 1px lightgrey dashed;
+  border-right: 1px lightgrey dashed;
+
+  width: 1060px;
+
+}
+
+
+..nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+
+}
+
+.nav img {
+
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0.3em;
+}
