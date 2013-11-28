@@ -303,7 +303,11 @@ padding-top: 2em;
 .large-block-grid-3 {
 text-align: center;
 
+}
 
+.large-block-grid-3 img  {
+
+  padding: 10px;
 
 }
 
@@ -510,7 +514,7 @@ text-decoration: none;
 }
 
 a:hover {
-  color:#62968c;
+  color:#b73737;
 } 
 
 .no-pointer {
@@ -629,10 +633,41 @@ h2 {
 #superclock-nav {
 
   z-index: 1000;
+  background: #e9e6d9;
+  line-height: 3em;
+  text-align: center;
+  color: black;
+  font-size: 1.3em;
+  font-family: 'proxima_novalight';
+  height: 100%;
 
 }
 
+#superclock-nav dl dd {
 
+    border-bottom: 1px solid #dddaca;
+    padding-left: 0em;
+  }
+
+#superclock-nav dl dd:hover {
+
+  background: #f2f0e4;
+}
+
+#superclock-nav dl dt {
+
+  background-color: #ee5e5e;
+  color: white !important;
+  font-size: 22px;
+
+}  
+
+#superclock-nav dl dt:hover {
+
+
+  color: white !important;
+
+}  
 
 .btn {
 
@@ -662,6 +697,36 @@ h2 {
   color: white !important; 
 
 }
+
+.left-nav  {
+
+  text-align: left !important;
+}
+
+#start {
+
+background-color: #f2f0e4;
+color: #85d080;
+padding-left: 3em;
+padding-top: 3em;
+bottom: 0px;
+min-height: 2000px;
+z-index: 1000;
+
+}
+
+
+#start h3 {
+
+  font-size: 4em;
+}
+
+#start h4 {
+
+  font-size: 2em;
+}
+
+
 
 
 
